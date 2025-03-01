@@ -1,0 +1,1 @@
+(()=>{const t=()=>{moment.locale("id"),document.querySelector(".time").textContent=moment().format("LTS"),document.querySelector(".date").textContent=moment().format("LL"),setTimeout(t,1e3)};t()})();
